@@ -9,6 +9,7 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { Link } from "react-router-dom";
+import { ThemeToggle } from "./ThemeToggle";
 
 export const Header = () => {
   return (
@@ -75,6 +76,7 @@ export const Header = () => {
           </Link>
         </nav>
         <div className="flex items-center space-x-4">
+          <ThemeToggle />
           <Button variant="outline">Accedi</Button>
           <Button>Registrati</Button>
         </div>
