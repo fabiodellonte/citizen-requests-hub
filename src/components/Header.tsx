@@ -78,9 +78,9 @@ export const Header = () => {
         <div className="flex items-center space-x-4">
           <ThemeToggle />
           <Button variant="outline">Accedi</Button>
-          <Button as={Link} to="/signup">
-            Registrati
-          </Button>
+          <Link to="/signup">
+            <Button>Registrati</Button>
+          </Link>
         </div>
       </div>
     </header>
